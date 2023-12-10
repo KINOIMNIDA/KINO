@@ -1,0 +1,188 @@
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+.nav li a:hover {
+    background: red;
+    margin-top: 10px;
+}
+.navbar-header a{
+	font-size: 25px;
+}
+.icon-bar{
+	background-color: red;
+}
+
+
+.modal-body img{
+  width: 100%;
+}
+
+.modal a {
+  margin-top: -110px;
+  margin-bottom: 80px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+/**********  Product-Section CSS Code Starts  **********/
+.product-section {
+  padding-left:15px;
+  padding-right:15px;
+  margin-bottom:20px;
+}
+.product-img {
+  width:auto;
+  height:270px;
+}
+.product-img-center {
+  text-align:center;
+}
+.product-border {
+  border: 1px solid #d1d1d1;
+  padding:20px;
+}
+.product-name a {
+  color: #232b33;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Roboto, sans-serif, arial;
+}
+.product-rating {
+  color: #FFC315;
+  font-size: 14px;
+  padding-top: 6px;
+}
+.product-rating span {
+  font-weight: 600;
+  color: #3c3b3b8c;
+  font-size: 12px;
+  font-family: Roboto, sans-serif, arial;
+}
+.product-discounted-price {
+  color: #333;
+  font-size: 18px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  font-family: Roboto, sans-serif, arial;
+}
+.product-original-price {
+  color: #6f6f6f;
+  text-decoration: line-through;
+  font-size:14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.product-discount {
+  border: 1px solid #ccc;
+  background: #fff;
+  display: inline-block;
+  font-size: 10px;
+  color: #999;
+  padding: 5px;
+  border-radius: 1px;
+  float:right;
+}
+.product-price {
+  margin-top: 15px;
+}
+/**********   Product-Section CSS Code Ends  **********/
+
+
+
+      body {
+        margin: 0;
+      }
+      .wrapper {
+        display: flex;
+        height: 5vh;
+        flex-direction: row;
+        justify-content: right;
+        align-items: right;
+      }
+      .button {
+        border: 1px transparent;
+        -webkit-border-radius: 40px;
+        border-radius: 15px;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Arial;
+        font-size: 20px;
+        padding: 5px 10px;
+        text-align: right;
+        text-decoration: none;
+        margin-right: 20px;
+        -webkit-animation: glowing 1300ms infinite;
+        -moz-animation: glowing 1300ms infinite;
+        -o-animation: glowing 1300ms infinite;
+        animation: glowing 1300ms infinite;
+      }
+      @-webkit-keyframes glowing {
+        0% {
+          background-color: #0091b2;
+          -webkit-box-shadow: 0 0 3px #0091b2;
+        }
+        50% {
+          background-color: #21c7ed;
+          -webkit-box-shadow: 0 0 15px #21c7ed;
+        }
+        100% {
+          background-color: #0091b2;
+          -webkit-box-shadow: 0 0 3px #0091b2;
+        }
+      }
+      @keyframes glowing {
+        0% {
+          background-color: red;
+          box-shadow: 0 0 3px red;
+        }
+        50% {
+          background-color: red;
+          box-shadow: 0 0 15px red;
+        }
+        100% {
+          background-color: #0091b2;
+          box-shadow: 0 0 3px #0091b2;
+        }
+      }
+  
+
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

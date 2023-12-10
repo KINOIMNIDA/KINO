@@ -1,0 +1,55 @@
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+.nav li a:hover {
+    background: red;
+    margin-top: 10px;
+}
+.navbar-header a{
+	font-size: 25px;
+}
+.icon-bar {
+	background-color: red;
+}
+
+
+
+.modal-body img{
+  width: 100%;
+}
+
+.modal a {
+  margin-top: -110px;
+  margin-bottom: 80px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+hr.new2 {
+  border-top: 1px dashed red;
+}
+
+
+.m-col {
+  -webkit-column-count: 3;
+}
+
+
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
